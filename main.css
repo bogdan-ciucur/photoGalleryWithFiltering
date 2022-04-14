@@ -1,0 +1,71 @@
+.row-gallery {
+    margin: 8px -16px;
+    }
+    
+    /* Add padding BETWEEN each column (if you want) */
+    .row-gallery ,
+    .row-gallery  > .column-gallery  {
+    padding: 8px;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column-gallery  {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+    }
+    
+    /* Clear floats after rows */
+    .row-gallery :after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    /* Content */
+    .content-gallery  {
+    background-color: white;
+    padding: 10px;
+    }
+    
+    /* The "show-gallery" class is added to the filtered elements */
+    .show-gallery  {
+    display: block;
+    }
+    
+    /* Style the buttons */
+    .btn-gallery  {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 1%;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .btn-gallery:hover {
+    background-color: #ddd;
+    }
+    
+    /* Add a dark background color to the active button */
+    .btn-gallery.active-gallery  {
+    background-color: #555;
+        color: white;
+    }
+
+
+    /* adding some margin at gallery section to look better */
+.photo-div1{
+
+    margin-top: 150px;
+    
+}
+
+
+.photo-div2{
+
+    margin-top: 50px ;
+    
+}
